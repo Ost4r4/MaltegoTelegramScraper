@@ -18,7 +18,6 @@ class Maltego_Telegram_Scraper(DiscoverableTransform):
             names = cls.find_forwarders(identifier)
             if names:
                 accounts_telegram = list(set(names))
-
                 for username in accounts_telegram:
                     count = names.count(username)
                     response.addEntity(Alias, username)
@@ -35,7 +34,6 @@ class Maltego_Telegram_Scraper(DiscoverableTransform):
             page_telegram = f'https://t.me/s/{username}'
             driver.get(page_telegram)
             time.sleep(SLEEP_TIME)
-
             last_height = driver.execute_script("return document.body.scrollHeight")
             for index_height in range(scrolls_number):
                 driver.execute_script("window.scrollTo(0,-document.body.scrollHeight);")
