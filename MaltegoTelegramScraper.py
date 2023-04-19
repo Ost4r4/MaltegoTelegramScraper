@@ -10,7 +10,7 @@ scrolls_number = 10
 
 
 
-class Maltego_Telegram_Scraper(DiscoverableTransform):
+class MaltegoTelegramScraper(DiscoverableTransform):
     @classmethod
     def create_entities(cls, request, response):
         identifier = request.Value
