@@ -58,6 +58,6 @@ Right-click, choose Local transform and launch the transformation
 
 If you want two or three levels of scrapping, you can either start over or automate it with "machines"
 
-![](https://user-images.githubusercontent.com/128547363/233214447-3ce6cfc8-ea08-4134-8211-f1fbdbf3b68b.png)
+![](https://user-images.githubusercontent.com/128547363/234405271-e6fb2751-4fbc-44f7-9986-8b4a9910cac4.png)
 
 GLHF !
